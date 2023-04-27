@@ -10,8 +10,8 @@ import (
 
 // Configure configures the null group
 func Configure(p *ujconfig.Provider) {
-	p.AddResourceConfigurator("null_resource", func(r *ujconfig.Resource) {
-		r.Kind = "Resource"
+	p.AddResourceConfigurator("azuredevops_environment", func(r *ujconfig.Resource) {
+		r.Kind = "Environment"
 		// And other overrides.
 	})
 }

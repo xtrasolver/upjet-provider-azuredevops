@@ -1,4 +1,4 @@
-module github.com/upbound/upjet-provider-template
+module github.com/xtrasolver/provider-azuredevops
 
 go 1.19
 
